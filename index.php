@@ -49,7 +49,10 @@
 
         <!-- HTML START -->
 
-		<?php // Drop your HTML between the HTML start and end comments ?>
+		<?php   // Drop your HTML between the HTML start and end comments
+                // test if the loop works by uncommenting the title function ?>
+
+        <?php // the_title(); ?>
 
         <!-- HTML END -->
 
