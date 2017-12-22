@@ -1,0 +1,42 @@
+$primary: rgba(51, 51, 51, 1);
+$font: 'Roboto', sans-serif;
+
+// Buttons styling
+a {
+  &.btn {
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    font-family: $font;
+  }
+
+  &.small {
+    width: 172px;
+    height: 30px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: 0 3px 4px 0 rgba(7, 33, 54, 0.3);
+    cursor: pointer;
+    z-index: 9;
+    font-weight: 600;
+
+    &.primary {
+      border-width: 2px;
+      border-style: solid;
+      color: white;
+      background-color: $primary;
+      border-color: $primary;
+
+      &:hover {
+        background-color: transparent;
+        border-width: 2px;
+        border-style: solid;
+        color: $primary;
+        border-color: $primary;
+      }
+    }
+  }
+}

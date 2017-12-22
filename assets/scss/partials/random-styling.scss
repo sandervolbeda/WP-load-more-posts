@@ -1,0 +1,19 @@
+$font: 'Roboto', sans-serif;
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-color: #f6f6f6;
+  flex-direction: column;
+
+  h1 {
+    font-family: $font;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
